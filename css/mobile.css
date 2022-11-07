@@ -1,0 +1,75 @@
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+
+  .l-heading {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  #main-nav .container {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  #showcase {
+    padding: 0;
+  }
+
+  .showcase-content .social {
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+  }
+
+  .showcase-content .social i {
+    font-size: 28px;
+  }
+
+  #showcase .hero-content h1 {
+    text-align: center;
+  }
+
+  #showcase .hero-content .hero {
+    background: center center cover no-repeat fixed;
+  }
+
+  .skills {
+    padding: 0;
+  }
+
+  .skills-container ul {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-container p {
+    padding: 10px 0;
+  }
+
+  .projects-container .project p {
+    margin-top: -20px;
+  }
+
+  .footer-container .social-links {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-container .footer {
+    text-align: center;
+  }
+
+  .about-project .grid-card-2 {
+    grid-template-columns: 1fr;
+  }
+  
+}

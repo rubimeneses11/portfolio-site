@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600&family=Spectral:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+  <title>Rubi Meneses | Project</title>
+</head>
+<body>
+  <!-- Nav -->
+  <nav id="main-nav">
+    <div class="container">
+      <a href="index.html"><img src="/img/rubilogo.svg" href="#home" alt="RubiMeneses" class="logo"></a>
+    </div>
+  </nav>
+
+  <section class="about-project">
+    <div class="container">
+      <h2 class="l-heading">ContactBook</h2>
+        <p>ContactBook is a .NET web application built to function as a contact book. I built this project using the MVC design pattern. This web application works along a postgres database to create, edit, and delete contacts and categories. It includes email functionality to email a specific person in your contacts or to email multiple people on your contact list that share a common category. This web application implements user authentication and authorization so anyone wanting to use this application must create an account or be signed into their existing account.</p>
+      <div class="grid-container">
+        <div>
+          <h4>STACK</h4>
+          <ul>
+            <li>.NET</li>
+            <li>C#</li>
+            <li>PostgreSQL</li>
+            <li>Bootstrap</li>
+            <li>Heroku</li>
+          </ul>
+        </div>
+        <div>
+          <h4>LIVE</h4>
+          <ul>
+            <li><a href="http://contact-book1113.herokuapp.com">View Site</a></li>
+            <li><a href="https://github.com/rubimeneses11">Github Repo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-cards">
+        <div class="card">
+          <img src="/img/projects/CB_landing.png" alt="landing-page">
+        </div>
+        <div class="card">
+          <img src="/img/projects/CB_contacts.png" alt="contacts-page">
+        </div>
+        <div class="card">
+          <img src="/img/projects/CB_categories.png" alt="categories-page">
+        </div>
+      </div>
+      <div class="project-heading">
+        <h3>Road bumps & Thought Process</h3>
+        <p>Like most projects, I ran into many problems along the way, one particularly difficult area was code structure and organization. This being such a large project for me, I knew staying structured and organized would be very important.</p>
+        <br>
+        <p>Using the Model-View-Controller (MVC) design pattern allowed me to lay out my code in an organized manner and find errors rather quickly. I knew I wanted to implement user authentication & authorization, as well as perform CRUD operations. Entity & Identity were tools I used that allowed me to make those ideas a reality as well as continue to keep my project organized and loosely coupled.</p>
+      </div>
+      <div class="grid-card-2">
+        <div class="card">
+          <img src="/img/projects/CB_register.png" alt="registration-page">
+        </div>
+        <div class="card">
+          <img src="/img/projects/CB_2fa.png" alt="two-factor-authentication">
+        </div>
+      </div>
+      <div class="project-heading">
+        <h3>Lessons & Takeaways</h3>
+        <p>I could spend all day describing the lessons that I learned while working on this project, but the most important ones involved my newfound understanding of the 4 pillars of object-oriented programming, LINQ, and the importance of well structured and organized code. This has been my biggest project using C# and it has taught me that writing sloppy code can easily come back to bite you. I now spend more time refactoring and improving every line of code I write, for the best readability and far fewer headaches.</p>
+        <br>
+        <p>On the non-technical side of things, I was happy to bring my creativity out with the application's design. Although I did take chunks from a couple of bootstrap templates to make this UI, I did enjoy branding it completely in my own way. I used Canva for the logo and the branding. Anytime I am able to design any small or large components for a site, it makes me very enthusiastic and keeps me motivated.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-container">
+        <h2 class="sub-heading">Let's build something together.</h2>
+        <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+        <a class="email" href="mailto:rubi.ventura@icloud.com">rubi.ventura@icloud.com</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rubi-meneses-67a024248/" target="_blank">linkedin</a>
+          <a href="https://twitter.com/rubimeneses11" target="_blank">twitter</a>
+          <a href="https://github.com/rubimeneses11" target="_blank">github</a>
+        </div>
+        <p class="footer">Designed and Built by Rubi Meneses</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
